@@ -38,6 +38,8 @@ To install Vagrant on Windows, you can follow these steps:
 
 Download and install VirtualBox: Vagrant requires a virtualization provider to work, and VirtualBox is the most popular provider. You can download the latest version of VirtualBox from the official website and install it on your Windows system.
 
+![1679059468524](image/README/1679059468524.png)
+
 Download and install Vagrant: Once you have installed VirtualBox, you can download the latest version of Vagrant from the official Vagrant website. Double-click on the downloaded file to start the installation process and follow the on-screen instructions to complete the installation.
 
 Verify the installation: After the installation is complete, open a command prompt and type vagrant --version to verify that Vagrant has been installed correctly.
