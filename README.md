@@ -49,3 +49,21 @@ Create a Vagrantfile: Once you have chosen a Vagrant box, you can create a Vagra
 Start the virtual machine: After you have created the Vagrantfile, you can start the virtual machine by running the command vagrant up in the project directory. Vagrant will download the base box if necessary and create the virtual machine according to the configuration in the Vagrantfile.
 
 That's it! You have now installed and set up Vagrant on your Windows system.
+
+## Troubleshooting
+
+### 2023-03-17
+
+Root cause:
+
+Deleted the files in %HOME%\.VirtualBox
+
+Solution:
+
+- Remove insecure boxes in Virtual Box
+- Uninstall Vagrant
+- Reinstall Vagrant
+
+(no need to create vm manually in Virtual Box)
+
+![1679057352505](image/README/1679057352505.png)
