@@ -54,7 +54,7 @@ That's it! You have now installed and set up Vagrant on your Windows system.
 
 ## Troubleshooting
 
-### 2023-03-17
+### 2023-03-16 `Vagrant up` doesn't work
 
 Root cause:
 
@@ -69,3 +69,13 @@ Solution:
 (no need to create vm manually in Virtual Box)
 
 ![1679057352505](image/README/1679057352505.png)
+
+### 2023-03-17 minikube has many issues in Vagrant Ubuntu Windows
+
+Root cause:
+
+The default CPUS setting is 2 for `minikube start`
+
+Solution:
+
+`minikube start --cpus 1`
